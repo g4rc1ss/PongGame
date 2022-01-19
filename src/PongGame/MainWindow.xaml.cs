@@ -26,10 +26,18 @@ namespace EjecicioPong
 
         public MainWindow()
         {
-            InitializeComponent();
-            puntuacionP1 = 0;
-            puntuacionP2 = 0;
-            Iniciar();
+            try
+            {
+                InitializeComponent();
+                puntuacionP1 = 0;
+                puntuacionP2 = 0;
+                Iniciar();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"{ex.Message} ----\n----- {ex.StackTrace}");
+                throw;
+            }
         }
 
         private void Iniciar()

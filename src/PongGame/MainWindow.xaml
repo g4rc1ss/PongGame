@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Pong" Height="525" Width="530" ResizeMode="NoResize" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" Icon="img/icono.jpg">
+        Title="Pong" Height="525" Width="530" ResizeMode="NoResize" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" 
+        Icon="/icono.jpg">
     <StackPanel Background="Gray">
         <StackPanel Height="50" Orientation="Horizontal" HorizontalAlignment="Center">
             <Label x:Name="lblP1" FontFamily="/Pong2017-2018;component/fonts/#Bit5x3"  FontSize="44">0</Label>
